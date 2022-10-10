@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-*{
+
+* {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -7,3 +8,101 @@
 
 
 /*! FOR HEADER*/
+
+/*! FOR LİNKS*/
+
+.nav-link {
+    color: rgb(27, 27, 27);
+}
+
+.nav-link:hover {
+    color: #e90e3d;
+}
+
+.link-primary {
+    color: rgb(26, 25, 25) !important;
+    font-size: 1.05em;
+}
+
+.link-primary:hover {
+    color: #e90e3d !important;
+}
+
+.btn-header {
+    border: 0;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(170, 1, 1), rgb(230, 5, 5));
+    color: white;
+}
+
+.btn-header-violet {
+    border: 0;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(61, 27, 255), rgb(143, 58, 255));
+    color: white;
+}
+
+.btn-header-violet:hover {
+
+    color: white;
+}
+
+.btn-header:hover {
+
+    color: white;
+}
+
+/*! FOR LİNKS*/
+
+
+/*! FOR İCONS */
+.electric img {
+    top: -70px;
+}
+
+/*! FOR İCONS */
+
+.ismb-1 {
+    margin-bottom: 120px;
+}
+
+.ispb-1 {
+    padding-bottom: 120px;
+}
+
+/*! FOR GALLERY*/
+
+.container .isgm-1 {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.portfolio-menu {
+    text-align: center;
+}
+
+.portfolio-menu ul li {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    -webkit-transition: all 05s ease;
+    -moz-transition: all 05s ease;
+    -ms-transition: all 05s ease;
+    -o-transition: all 05s ease;
+    transition: all .5s ease;
+}
+
+.portfolio-item {
+    /*width:100%;*/
+}
+
+.portfolio-item .item {
+    /*width:303px;*/
+    float: left;
+    margin-bottom: 10px;
+}
+
+
+/*! FOR GALLERY*/
